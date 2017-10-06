@@ -1,6 +1,4 @@
-body {
-    background: #6D7074;
-}
+
 
 h1, h2, h3, h4 {
     font-family: Catamaran,Helvetica,Arial,sans-serif;
@@ -151,3 +149,8 @@ header.masthead .device-container .screen img {
 .terminal-data { display: none; }
 .terminal-window .gray { color: gray; }
 .terminal-window .green { color: green;}
+
+
+#serverless img {
+    margin-bottom: -50px;
+}
