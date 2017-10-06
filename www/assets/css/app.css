@@ -28,11 +28,12 @@ header.masthead h3 {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-header.masthead button {
+header.masthead a {
     margin-top: 50px;
     cursor: pointer;
+    font-size: 20px;
 }
-header.masthead button img {
+header.masthead a img {
     margin-top: -7px;
     margin-bottom: -3px;
 }
