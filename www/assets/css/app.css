@@ -2,10 +2,83 @@ body {
     background: #6D7074;
 }
 
+h1, h2, h3, h4 {
+    font-family: Catamaran,Helvetica,Arial,sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+header.masthead {
+    position: relative;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    background: url("../images/bg-pattern.png"), #7b4397;
+    background: url("../images/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
+    background: url("../images/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430); }
+header.masthead h3 {
+    color: #fdcc52;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+header.masthead button {
+    margin-top: 50px;
+    cursor: pointer;
+}
+header.masthead button img {
+    margin-top: -7px;
+    margin-bottom: -3px;
+}
+header.masthead .header-content {
+    max-width: 500px;
+    margin-bottom: 100px;
+    text-align: center; }
+header.masthead .header-content h1 {
+    font-size: 30px; }
+header.masthead .device-container {
+    max-width: 325px;
+    margin-right: auto;
+    margin-left: auto; }
+header.masthead .device-container .screen img {
+    border-radius: 3px; }
+@media (min-width: 992px) {
+    header.masthead {
+        height: 100vh;
+        min-height: 775px;
+        padding-top: 50px;
+        padding-bottom: 50px; }
+    header.masthead .header-content {
+        margin-bottom: 0;
+        text-align: left; }
+    header.masthead .header-content h1 {
+        font-size: 50px; }
+    header.masthead .device-container {
+        max-width: 325px; } }
+
+@media only screen and (max-width: 768px) {
+
+    h3 {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+}
 
 .terminal-window {
     text-align: left;
-    width: 600px;
+    max-width: 600px;
     height: 415px;
     border-radius: 10px;
     margin: auto;
